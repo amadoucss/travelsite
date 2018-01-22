@@ -1,0 +1,14 @@
+.generic-content-container {
+  p {
+    /* No need a unit of measurement */
+    line-height: 1.65;
+    margin: 0 0 1.8rem 0;
+    @mixin atSmall {
+      font-size: 1.125rem;
+    }
+  }
+  p a {
+    /* font-weight: 400 is considered to be normal */
+    font-weight: 700;
+  }
+}
